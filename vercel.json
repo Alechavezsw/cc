@@ -10,10 +10,12 @@
     {
       "src": "/languages",
       "dest": "/api/languages.py"
-    },
+    }
+  ],
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
